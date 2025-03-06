@@ -15,7 +15,7 @@ TP-serveur-Linux/
 │── 📂 Docs/      -> Contient le PDF détaillant les étapes du TP
 │   └── Tp_3_seances_Nowak_Patrick.pdf
 │── 📂 Config/    -> Fichiers de configuration des services
-│── 📂 Scripts/   -> Scripts pour automatiser l'installation
+│── 📂 Captures/   -> Images des configs
 ```
 
 ## 🛠️ Prérequis
