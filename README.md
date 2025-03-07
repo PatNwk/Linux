@@ -10,7 +10,7 @@ Ce TP a pour but de vous guider dans la mise en place d'un serveur sous Linux in
 
 ## 📂 Structure du projet
 ```
-│── 📄 README.md → (Déjà créé, décrit le TP)
+│── 📄 README.md 
 │── 📂 Docs/ → (Pour la documentation et le PDF du TP)
 │ ├── Tp_3_seances_Nowak_Patrick.pdf 
 │── 📂 Configs/ → (Pour les fichiers de configuration des services)
