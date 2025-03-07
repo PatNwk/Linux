@@ -1,0 +1,9 @@
+zone "ynov.b2" {
+    type master;
+    file "/etc/bind/db.ynov.b2";
+};
+
+zone "1.168.192.in-addr.arpa" {
+    type master;
+    file "/etc/bind/db.192";
+};

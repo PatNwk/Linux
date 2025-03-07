@@ -1,0 +1,15 @@
+$TTL    604800
+@       IN      SOA     ynov.b2. root.ynov.b2. (
+                              2         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+
+; Serveur DNS
+@       IN      NS      ns.ynov.b2.
+ns      IN      A       192.168.1.1
+
+; Enregistrements des machines
+srv     IN      A       192.168.1.1
+client  IN      A       192.168.1.2

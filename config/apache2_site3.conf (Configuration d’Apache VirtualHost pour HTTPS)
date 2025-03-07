@@ -1,0 +1,16 @@
+<VirtualHost *:443>
+    ServerName site3.ynov.b2
+    DocumentRoot /var/www/site3
+
+    SSLEngine on
+    SSLCertificateFile /etc/ssl/certs/site3.crt
+    SSLCertificateKeyFile /etc/ssl/private/site3.key
+
+    <Directory /var/www/site3>
+        AllowOverride All
+        Require all granted
+    </Directory>
+
+    ErrorLog ${APACHE_LOG_DIR}/site3_error.log
+    CustomLog ${APACHE_LOG_DIR}/site3_access.log combined
+</VirtualHost>
