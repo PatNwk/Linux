@@ -10,12 +10,22 @@ Ce TP a pour but de vous guider dans la mise en place d'un serveur sous Linux in
 
 ## 📂 Structure du projet
 ```
-TP-serveur-Linux/
-│── 📄 README.md  -> Présentation du TP
-│── 📂 Docs/      -> Contient le PDF détaillant les étapes du TP
-│   └── Tp_3_seances_Nowak_Patrick.pdf
-│── 📂 Config/    -> Fichiers de configuration des services
-│── 📂 Captures/   -> Images des configs
+│── 📄 README.md → (Déjà créé, décrit le TP)
+│── 📂 Docs/ → (Pour la documentation et le PDF du TP)
+│ ├── Tp_3_seances_Nowak_Patrick.pdf 
+│── 📂 Configs/ → (Pour les fichiers de configuration des services)
+│ ├── dhcp_server.network → (Fichier de config DHCP)
+│ ├── dhcp_client.network → (Fichier de config client DHCP)
+│ ├── named.conf.local → (Fichier de config du DNS BIND9)
+│ ├── db.ynov.b2 → (Fichier de zone DNS)
+│ ├── apache2_site3.conf → (VirtualHost Apache pour HTTPS)
+│ ├── sshd_config → (Configuration SSH)
+│── 📂 Captures/ → (Pour les captures d'écran des tests & validations)
+│ ├── test_dhcp.png → (Test d'attribution d'IP par DHCP)
+│ ├── test_dns.png → (Test de résolution DNS)
+│ ├── test_https.png → (Accès sécurisé HTTPS)
+│ ├── test_ssh.png → (Connexion SSH par clé)
+│ ├── cockpit_interface.png → (Interface de Cockpit)
 ```
 
 ## 🛠️ Prérequis
